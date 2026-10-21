@@ -1,4 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PracticalFive</string>
+    <string name="app_name">Chinese Municipalities</string>
+    <string name="main_title">Municipalities in China</string>
+    <string name="input_label">I want to know about:</string>
+    <string name="input_hint">Enter a municipality name</string>
+    <string name="map_description">Map of the four municipalities in China</string>
+    <string name="municipality_image_description">Photo of %1$s</string>
+    <string name="visit_site">Visit site</string>
+    <string name="error_empty">Please enter a municipality name.</string>
+    <string name="error_invalid">Enter Beijing, Shanghai, Tianjin, or Chongqing.</string>
+    <string name="error_missing">Missing or invalid municipality.</string>
+    <string name="error_browser">No application is available to open this website.</string>
+    <string name="website_beijing" translatable="false">https://english.beijing.gov.cn/</string>
+    <string name="website_shanghai" translatable="false">https://english.shanghai.gov.cn/</string>
+    <string name="website_chongqing" translatable="false">https://english.cq.gov.cn/</string>
+    <string name="website_tianjin" translatable="false">https://en.tj.gov.cn/</string>
     <string name="welcome">Practical Five</string>
 </resources>

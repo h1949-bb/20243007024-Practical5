@@ -1,3 +1,11 @@
 <resources>
-    <style name="Theme.PracticalFive" parent="Theme.Material3.DayNight.NoActionBar" />
+    <style name="Theme.PracticalFive" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/municipality_beijing</item>
+        <item name="colorOnPrimary">@color/color_text_light</item>
+        <item name="colorSurface">@color/color_default_background</item>
+        <item name="colorOnSurface">@color/color_text_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
 </resources>
