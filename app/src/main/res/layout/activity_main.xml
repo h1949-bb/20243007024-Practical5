@@ -3,7 +3,6 @@
     android:id="@+id/mainRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_default_background"
     android:fillViewport="true"
     android:padding="24dp">
 
@@ -34,7 +33,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:labelFor="@id/municipalityInput"
             android:text="@string/input_label"
             android:textColor="@color/color_text_dark"
             android:textSize="18sp" />
@@ -46,6 +44,7 @@
             android:minHeight="48dp"
             android:hint="@string/input_hint"
             android:imeOptions="actionGo"
+            android:importantForAutofill="no"
             android:inputType="text"
             android:singleLine="true"
             android:textColor="@color/color_text_dark"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- Practical 5 explicitly requires these supplied images under res/drawable.
+         They are bounded to 900px to keep density-scaled bitmap allocations small. -->
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/beijing.jpg" />
+        <ignore path="src/main/res/drawable/shanghai.jpg" />
+        <ignore path="src/main/res/drawable/chongqing.jpg" />
+        <ignore path="src/main/res/drawable/tianjin.jpg" />
+        <ignore path="src/main/res/drawable/chinese_municipalities.png" />
+    </issue>
+</lint>

@@ -15,5 +15,5 @@
     <string name="website_shanghai" translatable="false">https://english.shanghai.gov.cn/</string>
     <string name="website_chongqing" translatable="false">https://english.cq.gov.cn/</string>
     <string name="website_tianjin" translatable="false">https://en.tj.gov.cn/</string>
-    <string name="welcome">Practical Five</string>
+    <string name="municipality_photo_description">Municipality photograph</string>
 </resources>
