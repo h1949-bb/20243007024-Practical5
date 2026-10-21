@@ -8,3 +8,5 @@ The four summaries in arrays.xml are original paraphrases of the following offic
 - Tianjin: [Historical origins and geographical setting](https://en.tj.gov.cn/tianjininfo/profile/202312/t20231225_6489676.html).
 
 Research date: 21 October 2026. The photographs, map, and app logo were supplied in the Practical 5 course resource pack. The provided map is a PNG despite the brief referring to a JPG. Adaptive and legacy icon sizes are derived from the supplied app_logo.png; no external image assets were added.
+
+Display images are proportionally resized to a maximum dimension of 900 pixels to avoid excessive Android density-scaled bitmap memory. The originals remain unchanged in the supplied course resource folder.
