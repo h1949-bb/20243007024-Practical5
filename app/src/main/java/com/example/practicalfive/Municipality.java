@@ -1,6 +1,9 @@
 package com.example.practicalfive;
 
 import android.os.Bundle;
+import android.content.Intent;
+import android.content.ActivityNotFoundException;
+import android.net.Uri;
 import android.content.res.ColorStateList;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -94,8 +97,14 @@ public class Municipality extends AppCompatActivity {
         visit.setTextColor(contrast);
         selectedWebsite = getString(websiteResource);
 
-        // The website action is added in the next development step.
-        visit.setEnabled(false);
+        visit.setOnClickListener(view -> {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(selectedWebsite));
+            try {
+                startActivity(browserIntent);
+            } catch (ActivityNotFoundException exception) {
+                Toast.makeText(this, R.string.error_browser, Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
 }
